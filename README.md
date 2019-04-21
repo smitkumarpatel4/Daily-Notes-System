@@ -1,4 +1,4 @@
-# Daily-Notes-System
+# Daily Notes System
 
 Descrption:
 - Web based Notes System to jot down daily notes.
