@@ -27,9 +27,9 @@ public class DeleteNote extends HttpServlet {
    			int ownerid=Integer.parseInt(request.getParameter("ownerid"));
    			
    			//Locate the entry to remove it
-   			for(Note allnote : allnotes){
-   				if(allnote.getId() == id && allnote.getOwnerId() == ownerid){
-   					allnotes.remove(id);
+   			for(Note note : allnotes){
+   				if(note.getId() == id && note.getOwnerId() == ownerid){
+   					allnotes.remove(note);
    					break;
    				}
    			}
